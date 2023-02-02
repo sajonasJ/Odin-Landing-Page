@@ -1,0 +1,71 @@
+* {
+  border-color: red;
+  border-style: solid;
+}
+
+header {
+  background-color: #272C39;
+  color: #f9faf8;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #272C39;
+  color: #f9faf8;
+  padding:30px;
+  gap:50px;
+}
+
+.navbar {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding:50px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+  padding:30px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+article {
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  
+  justify-content: center;
+}
+
+button {
+  background-color: #3882f6;
+}
+.pics {
+  display: flex;
+  gap:50px;
+  padding:50px;
+}
+
+.ipics {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  border-radius: 25px;
+}
+.letters{
+  padding:50px;
+}
